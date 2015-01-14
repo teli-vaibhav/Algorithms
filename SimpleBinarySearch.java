@@ -1,4 +1,11 @@
-public int getElementIndex(int[] a, int k)
+        /*
+	 * Given a sorted array with non duplicate elements
+	 * we are to search for a given element in the array
+	 * This is a recursive solution having Time Complexity 
+	 * of O(log n) & Space Complexity O(log n) if we consider
+	 * the space taken by the recursive stack.
+	 */
+	public int getElementIndex(int[] a, int k)
 	{
 		/*
 		 * It is essential to have a null check here and not in the Aux method
@@ -9,7 +16,10 @@ public int getElementIndex(int[] a, int k)
 		
 		return getElementIndexAux(a,k,0,a.length-1);
 	}
-
+        /*
+	 * This method helps us in hiding the implementation from the outside world
+	 * one form of abstaction
+	 */
 	private int getElementIndexAux(int[] a, int k, int firstIndex, int lastIndex) {
 		
 		/*
