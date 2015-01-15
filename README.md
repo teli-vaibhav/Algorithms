@@ -1,2 +1,1 @@
-# Searching
-Variations of Binary Search
+#Algorithms
