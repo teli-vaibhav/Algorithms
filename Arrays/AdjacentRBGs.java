@@ -1,7 +1,8 @@
   /*
 	 * Given an of only 0,1,2 element values where
 	 * 0-Red, 1-Blue, 2-Green. Find how many possible RBGs are 
-	 * adjacent to each other in any order.
+	 * adjacent to each other in any order. It is a O(n) solution
+	 * with O(1) Space Complexity.
 	 */
 	public int getNumberOfRBGInAnyOrder(int[] a)
 	{
