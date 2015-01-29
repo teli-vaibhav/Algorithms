@@ -1,6 +1,6 @@
 	/*
 	 * Given the root of a BT. We must print the
-	 * Inorder of this tree.
+	 * Preorder of this tree.
 	 * The solution is O(n) time and O(n) space
 	 * solution
 	 */
