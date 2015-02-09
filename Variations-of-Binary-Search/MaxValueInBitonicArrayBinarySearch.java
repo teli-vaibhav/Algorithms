@@ -1,4 +1,4 @@
-  /*
+        /*
 	 * Given a bitonic array in which there is an increasing
 	 * sequence of ints followed by a decreasing sequence. We 
 	 * are to find the largest value in such an array. The solution
@@ -20,7 +20,7 @@
 			/*
 			 * This condition is super tricky, all base cases must be covered.
 			 */
-			if((m==0 && m==a.length-1) || (m==0 && a[m]>a[m+1]) || (m==a.length-1 && a[m-1]<a[m]) || (a[m]>a[m-1] && a[m]>a[m+1]))
+			if((m==0 && a[m]>a[m+1]) || (m==a.length-1 && a[m-1]<a[m]) || (a[m]>a[m-1] && a[m]>a[m+1]))
 			  return a[m];
 			
 			if(a[m]<a[m+1])
