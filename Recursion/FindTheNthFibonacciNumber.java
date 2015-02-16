@@ -7,7 +7,7 @@
 	 */
 	public static int getNthFibonacciNumber(int n)
 	{
-		if(n<0)
+		if(n<=0)
 			return Integer.MIN_VALUE;
 		
 		if(n==1 || n==2)
