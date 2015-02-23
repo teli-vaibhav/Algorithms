@@ -1,6 +1,6 @@
 /*
 	 * We are given the node of a Circular LL and we are to divide this list into
-	 * two separate Circular LL.
+	 * two separate Circular LL and return the head of the second list.
 	 * The solution below varies for both cases when the number of nodes in the
 	 * initial list are odd or even. When the size of the list is even then the
 	 * list can be equally divided. When the size is odd, then the second element will have 
