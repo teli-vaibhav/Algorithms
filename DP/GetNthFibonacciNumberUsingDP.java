@@ -6,7 +6,7 @@
 	 * This solution is much more efficient compared to the recursive solution
 	 * which has O(2^n) time complexity also takes up considerable recursive stack space.
 	 */
-	public static int getNthFibonacciNumberUsingDP(int n)
+	public static int getNthFibonacciNumberUsingDPBottomUp(int n)
 	{
 		if(n<=0)
 			return Integer.MIN_VALUE;
