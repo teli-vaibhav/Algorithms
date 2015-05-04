@@ -1,3 +1,12 @@
+
+public void printDFS(Graph g,int u)
+	{
+		if(g==null || g.adjMatrix==null)
+			return;
+		printDFSAux(g,u,g.visited);
+	}
+
+
 private void printDFSAux(Graph g, int u, boolean[] visited) {
 		
 		visited[u]=true;
